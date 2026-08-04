@@ -1,0 +1,133 @@
+Web Development Assignment (Simple Answers)
+
+1.  Difference between Frontend, Backend, and Full-Stack Development
+
+Frontend: - The part of the website users can see and interact with. -
+Technologies: HTML, CSS, JavaScript. - Example: The Amazon home page,
+buttons, images, and search bar.
+
+Backend: - The part that works behind the scenes. - Handles login, data
+processing, and communication with the database. - Technologies: Java,
+Python, Node.js, PHP. - Example: Checking your username and password
+when you log in.
+
+Full-Stack: - A developer who can work on both frontend and backend. -
+Example: Building a complete online shopping website from start to
+finish.
+
+------------------------------------------------------------------------
+
+2.  Client-Server Model Diagram
+
++———+ Request +————+ | Client | ———————> | Web Server | | Browser | | |
++———+ <——————— +————+ Response (Web Page)
+
+------------------------------------------------------------------------
+
+3.  How a Browser Requests a Web Page
+
+4.  User enters a website address (URL).
+
+5.  The browser sends a request to the web server.
+
+6.  The server processes the request.
+
+7.  The server sends HTML, CSS, and JavaScript files back.
+
+8.  The browser reads these files.
+
+9.  The web page is displayed on the screen.
+
+------------------------------------------------------------------------
+
+4.  Tools Required for Web Development
+
+5.  VS Code
+
+    -   Used to write and edit code.
+
+6.  Web Browser (Chrome, Edge, Firefox)
+
+    -   Used to view and test websites.
+
+7.  Git
+
+    -   Tracks code changes.
+
+8.  GitHub
+
+    -   Stores projects online.
+
+9.  Node.js (optional)
+
+    -   Runs JavaScript outside the browser and installs packages.
+
+------------------------------------------------------------------------
+
+5.  What is a Web Server?
+
+A web server is software that stores website files and sends them to
+users when requested.
+
+Examples: - Apache - Nginx - Microsoft IIS - Node.js server
+
+------------------------------------------------------------------------
+
+6.  Roles in a Project
+
+Frontend Developer - Designs and builds the user interface.
+
+Backend Developer - Creates server-side logic and APIs.
+
+Database Administrator (DBA) - Stores, manages, and protects data.
+
+------------------------------------------------------------------------
+
+7.  VS Code Setup
+
+Steps: 1. Install VS Code. 2. Install the Live Server extension. 3.
+Install HTML CSS Support extension. 4. Install JavaScript (ES6) Code
+Snippets extension. 5. Create an HTML file and open it in VS Code.
+
+Note: Take a screenshot of your own VS Code after installation and add
+it to your assignment.
+
+------------------------------------------------------------------------
+
+8.  Static vs Dynamic Websites
+
+Static Website - Content stays the same for every visitor. - Example:
+Personal portfolio website.
+
+Dynamic Website - Content changes based on the user or database. -
+Example: Amazon, Instagram, Facebook.
+
+------------------------------------------------------------------------
+
+9.  Five Web Browsers
+
+10. Google Chrome - Blink engine
+
+11. Microsoft Edge - Blink engine
+
+12. Mozilla Firefox - Gecko engine
+
+13. Apple Safari - WebKit engine
+
+14. Opera - Blink engine
+
+Rendering Engine: A rendering engine reads HTML, CSS, and JavaScript and
+displays the webpage. Different browsers use different engines, so some
+websites may look slightly different.
+
+------------------------------------------------------------------------
+
+10. Basic Web Architecture Diagram
+
+             User
+              |
+              v
+
+    +—————-+ | Client Browser | +—————-+ | HTTP Request | v +—————-+ |
+    Web Server | +—————-+ | | | | v v +——+ +——+ | APIs | |Database| +——+
+    +——+ | +—— Response ——> Browser
