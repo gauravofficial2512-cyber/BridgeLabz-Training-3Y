@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;"><b>Student Registration Form</b></h1>
+    <table border="1" style="text-align: center; margin:auto;width: 800px;" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr>
+                <th colspan="2" style="text-align: center;">Registration Form</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fullname</td>
+                <td>
+                    <input type="text" placeholder="name">
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="text" placeholder="abc@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td>
+                    <input type="text" placeholder="9711041832">
+                </td>
+            </tr>
+            <tr>
+                <td>Date Of Birth</td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                   <input type="radio" name="gend">Male
+                   <input type="radio" name="gend">Female
+                   <input type="radio" name="gend">other
+                </td>
+            </tr>
+            <tr>
+                <td>Skills</td>
+                <td>
+                    <input type="radio" name="skill">HTML 
+                    <input type="radio" name="skill">CSS 
+                    <input type="radio" name="skill">Java Script
+                </td>
+            </tr>
+            <tr>
+                <td>Course</td>
+                <td>
+                    
+                    <select name="course" id="course">
+                        <option value="cs">Computer Science</option>
+                        <option value="ms">Mechanical</option>
+                        <option value="cv">Civil</option>
+                        <option value="el">Electrical</option>
+                        <option value="ece">Electronics</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea cols="15"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Upload Resume</td>
+                <td>
+                    <input type="file" name="resume">
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
