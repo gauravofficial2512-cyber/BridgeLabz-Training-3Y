@@ -1,0 +1,17 @@
+h1,h2{
+    text-align:center;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.sub{
+    text-align: center;
+}
+button{
+    background-color: purple;
+    color:white;
+    border-radius: 20%;
+}
