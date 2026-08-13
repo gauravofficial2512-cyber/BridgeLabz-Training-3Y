@@ -1,0 +1,19 @@
+.header{
+    text-align:center;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    color:rgb(50, 50, 186);
+}
+img{
+    border:solid rgb(50, 50, 186);;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 120px;
+    height:120px;
+    margin-right:40px;
+    margin-top:20px;
+}
