@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <table border="1" cellpadding="10" cellspacing="1" style="margin:auto;">
+            <input type="hidden" name="csrf_token" value="abcd12345">
+            <tr>
+                <th colspan="2">LOGIN</th>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td>
+                    <input type="text" placeholder="username">
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" style="margin-left:100px;">Remeber ME
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit" style="margin-left:120px">Login</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <!-- A CSRF token is a random, secret value used to 
+    make sure that a form request actually came from your 
+    website and not from a malicious website. -->
+</body>
+</html>
