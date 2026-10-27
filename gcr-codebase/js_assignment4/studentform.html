@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Student Registration</h2>
+
+    <form id="form">
+        <input id="name" placeholder="Name"><br><br>
+        <input id="email" placeholder="Email"><br><br>
+        <input id="phone" placeholder="Phone"><br><br>
+        <input id="pass" type="password" placeholder="Password"><br><br>
+        <button>Submit</button>
+    </form>
+
+    <p id="msg"></p>
+
+    <script>
+        
+let form = document.getElementById("form");
+let msg = document.getElementById("msg");
+
+form.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    let name = document.getElementById("name");
+    let email = document.getElementById("email");
+    let phone = document.getElementById("phone");
+    let pass = document.getElementById("pass");
+
+    let r1 = /^[A-Za-z]+$/;
+    let r2 = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    let r3 = /^[0-9]{10}$/;
+    let r4 = /^(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9]).+$/;
+
+    let arr = [
+        [name, r1],
+        [email, r2],
+        [phone, r3],
+        [pass, r4]
+    ];
+
+    let ok = true;
+
+    arr.forEach(a => {
+        if (a[1].test(a[0].value)) {
+            a[0].style.border = "2px solid green";
+        } else {
+            a[0].style.border = "2px solid red";
+            ok = false;
+        }
+    });
+
+    if (ok) {
+        msg.textContent = "Registration Successful";
+        msg.style.color = "green";
+    } else {
+        msg.textContent = "Please enter valid details";
+        msg.style.color = "red";
+    }
+});
+
+    </script>
+</body>
+</html>
